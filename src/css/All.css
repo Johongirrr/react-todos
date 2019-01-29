@@ -1,0 +1,20 @@
+ .container .todos {
+	background: orange;
+ 	text-decoration: none;
+ }
+
+ .todos-item{
+ 	padding: 0.9rem;
+ 	background: grey;
+ 	font-size: 1.5rem;
+ 	text-align: center;
+ 	color: white;
+ 	 
+ }
+  
+
+ @media(max-width: 600px){
+ 	.todos-item{
+ 		font-size: 1.5rem;
+ 	}
+ }

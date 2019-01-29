@@ -1,0 +1,21 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: sans-serif;
+	line-height: 1.5;
+	background: lightgrey;
+	padding-top: 30px;
+}
+
+.removed-todos {
+	padding-top: 3rem;
+	 margin: 0 auto;
+	text-align: center;
+	font-size: 2rem;
+	color: red;
+	text-shadow: 2px 1px 4px red;
+ }

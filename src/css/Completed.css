@@ -1,0 +1,19 @@
+.todos-container {
+	margin: 0 auto;
+	padding: 1rem;
+	background: #777;
+}
+.todos {
+	text-align: center;
+	font-size: 1rem;
+	text-decoration: line-through;
+	text-decoration-color: white;
+	transition: all .6s;
+}
+
+.completed-todos{
+	font-size: 1.5rem;
+	padding: 1rem;
+	color: #fff;
+	text-decoration-color: white;
+}

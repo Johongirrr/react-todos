@@ -1,0 +1,35 @@
+.container {
+	text-align: center;
+	padding: 0.9rem;
+	background: #777;
+
+}
+
+#add-todo{
+	padding: 0.8rem;
+	width:14rem;
+}
+
+#add-todo::placeholder {
+	font-size: 1rem;
+}
+#add-todo + button {
+	font-size: 1rem;
+	padding: 0.8rem;
+	transition: all .7s;
+	 border: none;
+
+}
+
+
+#add-todo + button:hover {
+	background: #262626;
+	color: #fff;
+
+}
+
+@media(max-width: 600px){
+	#add-todo::placeholder{
+		font-size: 1.2rem;
+	}
+}
